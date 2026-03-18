@@ -1,16 +1,48 @@
-# React + Vite
+# NC Beekeepers Exam Practice Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web-based quiz app to help beekeepers prepare for the **North Carolina State Beekeepers Association Certified Level** examination.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **4 quiz modules** with 191 total questions covering the full exam scope
+- **Randomized questions** on each attempt for effective study
+- **Instant feedback** with correct/incorrect highlighting
+- **Progress tracking** with a real-time progress bar
+- **Score summary** with pass/fail status (75% threshold), breakdown stats, and missed question review
+- **Unique color themes** per quiz for easy visual distinction
 
-## React Compiler
+## Topics Covered
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Category | Examples |
+|----------|---------|
+| Biology (🐝) | Anatomy, development cycles, pheromones |
+| Behavior (🕺) | Waggle dance, swarming, supersedure |
+| Pests (🔬) | Varroa mites, Small Hive Beetles, wax moths |
+| Disease (🏥) | AFB, EFB, Nosema, Sacbrood |
+| Equipment (🛠) | Bee space, Langstroth hive, feeding |
+| Honey & Products (🍯) | Fermentation, royal jelly, propolis |
+| NC Regulations (📋) | Hive registration, reportable diseases, NCDA&CS |
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** with Vite
+- **React Router** for multi-quiz navigation
+- Deployed on **Vercel**
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to start practicing.
+
+## Scripts
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Production build |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
